@@ -2,7 +2,7 @@
 A sentiment analysing project employing speech to text (STT) models, Machine Learning (ML) algorithms and other libraries
 Here is a detailed step-by-step instructions for running the following project on your device:
 
-##1) Downloading the required packages and dependencies:
+## 1) Downloading the required packages and dependencies:
 The python version for this implementation is 3.10.12. Running the python scripts in the
 linked folder requires an active python environment for execution. We used mamba, very
 similar to miniconda this purpose. Searching up “conda forge” on GitHub ought to do the
@@ -31,7 +31,7 @@ version of pytorch. Select Linux, Python and CPU and copy the generated link.
 Go back to your terminal (ensure that the python environment is still running), and input
 the following command “ wget (paste the copied link)” and hit enter.
 
-##2) Now we will introduce you to the python files (or scripts) at play for this implementation.
+## 2) Now we will introduce you to the python files (or scripts) at play for this implementation.
 If you open the linked file (Sentiment), you will notice a LOT of files, but let’s bring your
 attention to three specific ones, namely audio_capture.py, output.wav and
 logistic_regression.py.
@@ -77,9 +77,9 @@ The moral of this manual is that if you want to run the necessary programs, simp
 your directory to the linked file (Sentiment) and slap the command “python runner.py” in the
 terminal and watch how it does its thing.
 
-If the user is happy it will return the image of a smiling face which will be shown to the user .
-The program uses opencv-python . If there is no image it will show none . We can also add the
-time after which we want the image to disappear using the wait key . But here we have added a
+If the predicted sentiment returns positive, the program will return the image of a smiling face.
+The program uses the OpenCV Python library. If the predicted sentiment is negative, then we get an image of a robot frowning. We can also add the
+time after which we want the image to disappear using the wait key. But here we have added a
 function such that the image disappears when we press ‘q’. 
 
 ![image](https://github.com/Shooooooonak/PS-1/assets/137979966/b251f10c-a169-4728-8c8f-c0feca31fe91)
