@@ -2,7 +2,7 @@
 A sentiment analysing project employing speech to text (STT) models, Machine Learning (ML) algorithms and other libraries
 Here is a detailed step-by-step instructions for running the following project on your device:
 
-1) Downloading the required packages and dependencies:
+##1) Downloading the required packages and dependencies:
 The python version for this implementation is 3.10.12. Running the python scripts in the
 linked folder requires an active python environment for execution. We used mamba, very
 similar to miniconda this purpose. Searching up “conda forge” on GitHub ought to do the
@@ -30,7 +30,8 @@ to the bottom, you will see several fields that you choose between to install th
 version of pytorch. Select Linux, Python and CPU and copy the generated link.
 Go back to your terminal (ensure that the python environment is still running), and input
 the following command “ wget (paste the copied link)” and hit enter.
-2) Now we will introduce you to the python files (or scripts) at play for this implementation.
+
+##2) Now we will introduce you to the python files (or scripts) at play for this implementation.
 If you open the linked file (Sentiment), you will notice a LOT of files, but let’s bring your
 attention to three specific ones, namely audio_capture.py, output.wav and
 logistic_regression.py.
@@ -39,7 +40,9 @@ through a microphone and saving the recorded audio as a .wav file. A text will a
 the screen that says “ recording has started, press ctrl-C to stop”. You are expected to speak your mind when that pops up and press the mentioned keys to end the stream
 and save your audio input. The code for it is as below:
 ![image](https://github.com/Shooooooonak/PS-1/assets/137979966/895db62c-8ab1-42a1-9ecf-f35fd10a522c)
+
 ![image](https://github.com/Shooooooonak/PS-1/assets/137979966/f1f405e6-238f-47f1-a5e3-99f82ba53887)
+
 NOTE: Line 12 incudes the directory that the file was saved on my device, do adjust it
 according to yours before implementing
 
@@ -66,7 +69,9 @@ the folder Sentiment which honestly, is all you should need to know about if you
 to use this project. The script is named run.py. It uses a built in python library named
 "subprocess" that automatically executes the aforementioned python scripts provided all
 exist in the same directory, which they do. Its pretty concise and easy to understand:
+
 ![image](https://github.com/Shooooooonak/PS-1/assets/137979966/54daa26a-cd4d-4deb-a34d-bc052abea361)
+
 
 The moral of this manual is that if you want to run the necessary programs, simply set
 your directory to the linked file (Sentiment) and slap the command “python runner.py” in the
@@ -76,7 +81,9 @@ If the user is happy it will return the image of a smiling face which will be sh
 The program uses opencv-python . If there is no image it will show none . We can also add the
 time after which we want the image to disappear using the wait key . But here we have added a
 function such that the image disappears when we press ‘q’. 
+
 ![image](https://github.com/Shooooooonak/PS-1/assets/137979966/b251f10c-a169-4728-8c8f-c0feca31fe91)
+
 ![image](https://github.com/Shooooooonak/PS-1/assets/137979966/f4900b2d-c594-4317-a5da-f6a43338e5f3)
 
 
