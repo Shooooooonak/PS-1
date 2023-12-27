@@ -39,9 +39,11 @@ a. audio_capture.py: This python script is responsible for taking in the audio i
 through a microphone and saving the recorded audio as a .wav file. A text will appear on
 the screen that says “ recording has started, press ctrl-C to stop”. You are expected to speak your mind when that pops up and press the mentioned keys to end the stream
 and save your audio input. The code for it is as below:
+
 ![image](https://github.com/Shooooooonak/PS-1/assets/137979966/895db62c-8ab1-42a1-9ecf-f35fd10a522c)
 
 ![image](https://github.com/Shooooooonak/PS-1/assets/137979966/f1f405e6-238f-47f1-a5e3-99f82ba53887)
+
 
 NOTE: Line 12 incudes the directory that the file was saved on my device, do adjust it
 according to yours before implementing
@@ -70,7 +72,9 @@ to use this project. The script is named run.py. It uses a built in python libra
 "subprocess" that automatically executes the aforementioned python scripts provided all
 exist in the same directory, which they do. Its pretty concise and easy to understand:
 
+
 ![image](https://github.com/Shooooooonak/PS-1/assets/137979966/54daa26a-cd4d-4deb-a34d-bc052abea361)
+
 
 
 The moral of this manual is that if you want to run the necessary programs, simply set
