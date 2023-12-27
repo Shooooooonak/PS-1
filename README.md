@@ -1,4 +1,4 @@
-![image](https://github.com/Shooooooonak/PS-1/assets/137979966/9d76cfde-dede-4a40-8f53-71c2c8724b1f)# PS-1
+# PS-1
 A sentiment analysing project employing speech to text (STT) models, Machine Learning (ML) algorithms and other libraries
 Here is a detailed step-by-step instructions for running the following project on your device:
 
